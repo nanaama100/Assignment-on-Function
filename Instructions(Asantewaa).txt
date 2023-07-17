@@ -1,0 +1,49 @@
+Code Instrustion
+
+1. In order to calculate for simple interest, principal, rate or time, all you need to
+do is to import the si_calc python file into your vs code. The si_calc python file contains all
+the functions to help you calculate for simple interest,principal, rate and time. 
+
+2. Open your vs code app on your desktop or any place you have saved the app on your machine.
+
+3. Create your own python file where you want your calculation to be performed and save it as name.py
+#name is the name you want to give to your python file. 
+
+4. In your python file type: from si_calc import Simple_Interest, Rate_in_SI, Principal_in_SI, Time_in_SI 
+#the Simple_Interest is the function name to be called to calculate for simple interest. 
+#the Rate_in_SI is the function name to be called to calculate for rate in simple interest. 
+#the Principal_in_SI is the function name to be called to calculate for principal in simple interest. 
+#the Time_in_SI is the function name to be called to calculate for time in simple interest. 
+
+5. To calculate for the simple interest, call the function name, which is Simple_Interest by typing
+it on the third line in your vs code after you have typed from si_calc import Simple_Interest, Rate_in_SI, Principal_in_SI, 
+Time_in_SI which comes in the first line. 
+The Simple_Interest takes three parameters(Principal, Rate, Time). The parameters serves as a placeholder for
+the values to be passed to them. Here's an example below of how to pass the values to the parameters
+
+Simple_Interest(1000, 0.5, 5)
+#the 1000 is the value stored in the principal parameter
+#the 0.5 is the value stored in the rate parameter
+#the 5 is the value stored in the time parameter
+
+6. Now you can call the function by typing the name of the function in your vs code with your own example values.
+
+7. After that create a variable where you can store the result for your simple interest.
+example: interest = Simple_Interest(1000, 0.5, 5)
+the "interest" is my variable that stores the result, Simple_Interest
+
+7. Afterwards you print the interest 
+type: print("the simple interest is ", interest)
+
+8. In order to calculate for your principal, repeat the same process as seen for the simple interest. Call 
+the Principal function. The principla function takes 3 parameters(interest, rate , time) and repeat the 
+steps in the simple interest in the same way after you pass in your values to the paramters. 
+
+9. To calculate for rate, use the same procedure as seen for the simple interest. Call the rate function. The 
+rate function also takes 3 parameters(Interest, Principal, Time) then pass your argment or values to the parameters
+and repeat the steps in the simple interest in the same way after you pass in your values to the paramters. 
+
+10. To calculate for time, use the same procedure as seen for the simple interest. Call the time function. The 
+time function also takes 3 parameters(Interest, Principal, Rate) then pass your values and repeat the steps in 
+the simple interest in the same way after you pass in your values to the paramters.
+ 
